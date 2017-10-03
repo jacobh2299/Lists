@@ -22,4 +22,13 @@ public class Donut
 		this();
 		this.flavor = flavor;
 	}
+	
+	public String toString()
+	{
+		String description = "This donut is a " +flavor+" donut";
+		
+		return description;
+	}
+	
+	
 }
